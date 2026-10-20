@@ -1,0 +1,10 @@
+name: Hello World
+on: workflow_dispatch
+
+jobs:
+  hello_world:
+    name: Print Hello world job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello step
+        run: echo "Welcome to GHA"
